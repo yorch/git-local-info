@@ -130,6 +130,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/ini@npm:^1.3.31":
+  version: 1.3.31
+  resolution: "@types/ini@npm:1.3.31"
+  checksum: aca4fed0cd68f6693fd64e1b7d188a9c8c6f5823b2e3501b0570135555d4184d7d0dfba2c1afb3514c94cb21ece732f4467ea98c827d1b1b98716827ac9de680
+  languageName: node
+  linkType: hard
+
 "@types/mocha@npm:^10.0.1":
   version: 10.0.1
   resolution: "@types/mocha@npm:10.0.1"
@@ -856,6 +863,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "git-local-info@workspace:."
   dependencies:
+    "@types/ini": ^1.3.31
     "@types/mocha": ^10.0.1
     "@types/node": ^12.20.55
     ini: ^1.3.8
