@@ -1,7 +1,7 @@
 
 # git-local-info
 
-| Fork of <https://github.com/ycjcl868/git-local-info>
+> Fork of <https://github.com/ycjcl868/git-local-info>
 
 ## Badges
 
