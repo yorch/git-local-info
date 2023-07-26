@@ -10,7 +10,7 @@
     "index.js"
   ],
   "scripts": {
-    "prepublishOnly": "run build",
+    "prepublishOnly": "yarn build",
     "precommit": "run lint-staged",
     "lint-staged": "lint-staged",
     "clean": "rimraf ./lib",
