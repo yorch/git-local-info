@@ -4,7 +4,6 @@
   ],
   "rules": {
     "no-var-keyword": true,
-    "no-unused-variable": true,
     "no-empty": false,
     "quotemark": [
       true,
