@@ -31,6 +31,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
           cache: 'yarn'
       - run: yarn install --immutable
-      - run: yarn npm publish
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
