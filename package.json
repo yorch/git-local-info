@@ -41,10 +41,10 @@
   },
   "homepage": "https://github.com/ycjcl868/git-local-info",
   "devDependencies": {
-    "lint-staged": "^8.0.4",
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.12.18",
     "debug": "^4.1.0",
+    "lint-staged": "^8.0.4",
     "mocha": "^4.1.0",
     "rimraf": "^2.6.2",
     "ts-node": "^7.0.1",
