@@ -10,12 +10,11 @@
     "index.js"
   ],
   "scripts": {
-    "prepublishOnly": "npm run build",
-    "precommit": "npm run lint-staged",
+    "prepublishOnly": "run build",
+    "precommit": "run lint-staged",
     "lint-staged": "lint-staged",
     "clean": "rimraf ./lib",
     "build": "tsc",
-    "ci": "npm run lint && npm run test",
     "test": "TEST=1 mocha -r ts-node/register test/*.test.ts test/**/*.test.ts",
     "lint": "tslint --project ./tsconfig.json",
     "format": "prettier --write \"src/**/*.ts\""
@@ -35,11 +34,8 @@
   },
   "lint-staged": {
     "linters": {
-      "src/**/*.ts": "npm run lint"
-    },
-    "ignore": [
-      "src/typings/**.ts"
-    ]
+      "src/**/*.ts": "yarn lint"
+    }
   },
   "homepage": "https://github.com/yorch/git-local-info",
   "devDependencies": {
