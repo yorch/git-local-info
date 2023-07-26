@@ -14,7 +14,6 @@ describe('git-repo-info', () => {
   });
 
   describe('repoInfo', () => {
-
     it('returns an object with repo info', () => {
       const project = 'branch-with-slashes';
       const repoRoot = path.join(testFixturesPath, project);

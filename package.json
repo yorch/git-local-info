@@ -16,7 +16,8 @@
     "build": "tsc",
     "ci": "npm run lint && npm run test",
     "test": "TEST=1 mocha -r ts-node/register test/*.test.ts test/**/*.test.ts",
-    "lint": "tslint --project ./tsconfig.json"
+    "lint": "tslint --project ./tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "repository": {
     "type": "git",

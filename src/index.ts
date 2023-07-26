@@ -14,7 +14,7 @@ export default class GitInfo {
       repository: this.getRepository(),
       sha: this.getSha(),
       commit: this.getCommit(),
-      rootDir:  path.dirname(path.resolve(this.gitPath)),
+      rootDir: path.dirname(path.resolve(this.gitPath)),
     };
   }
   private gitPath: string;
@@ -73,13 +73,15 @@ export default class GitInfo {
   }
   public getCommit() {
     try {
-
       const sha = this.getSha();
-      if (!sha) { return ''; }
+      if (!sha) {
+        return '';
+      }
       const objectPath = path.join(this.gitPath, 'objects', sha.slice(0, 2), sha.slice(2));
       if (zlib.inflateSync && fs.existsSync(objectPath)) {
         const objectContents = zlib.inflateSync(fs.readFileSync(objectPath)).toString();
-        const commit = objectContents.split(/\0|\r?\n/)
+        const commit = objectContents
+          .split(/\0|\r?\n/)
           .filter((item) => {
             return !!item;
           })
@@ -105,7 +107,7 @@ export default class GitInfo {
                 break;
               default:
                 // should just be the commit message left
-                data.commitMessage  = section;
+                data.commitMessage = section;
             }
             return data;
           }, {});
@@ -142,9 +144,9 @@ export default class GitInfo {
   private _getPackedRefsForType(refPath, type) {
     const packedRefsFile = this._getPackedRefsFile();
     if (packedRefsFile) {
-      return this._getLinesForRefPath(packedRefsFile, type, refPath).map((shaLine) => {
-        return this._getShaBasedOnType(type, shaLine);
-      });
+      return this._getLinesForRefPath(packedRefsFile, type, refPath).map((shaLine) =>
+        this._getShaBasedOnType(type, shaLine)
+      );
     }
     return [];
   }
