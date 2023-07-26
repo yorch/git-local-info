@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ycjcl868/git-local-info.git"
+    "url": "https://github.com/yorch/git-local-info.git"
   },
   "keywords": [
     "git",
@@ -31,7 +31,7 @@
   "author": "ycjcl868",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ycjcl868/git-local-info/issues"
+    "url": "https://github.com/yorch/git-local-info/issues"
   },
   "lint-staged": {
     "linters": {
@@ -41,7 +41,7 @@
       "src/typings/**.ts"
     ]
   },
-  "homepage": "https://github.com/ycjcl868/git-local-info",
+  "homepage": "https://github.com/yorch/git-local-info",
   "devDependencies": {
     "@types/ini": "^1.3.31",
     "@types/mocha": "^10.0.1",
