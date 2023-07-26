@@ -1,6 +1,6 @@
 {
   "name": "git-local-info-ts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Retrieve current sha, branch name, repository from a git repo.",
   "main": "index.js",
   "module": "./lib",

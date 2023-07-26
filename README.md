@@ -1,5 +1,5 @@
 
-# git-local-info
+# git-local-info-ts
 
 > Fork of <https://github.com/ycjcl868/git-local-info>
 
