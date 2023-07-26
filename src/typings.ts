@@ -1,9 +1,9 @@
-export interface ICommit {
+export type ICommit = {
   commitMessage?: string;
   committer?: string;
-}
+};
 
-export interface IGitInfo {
+export type IGitInfo = {
   /** The current branch */
   branch: string;
   /** The current repository url */
@@ -14,9 +14,9 @@ export interface IGitInfo {
   commit: ICommit;
   /** The commit message for the current SHA */
   rootDir: string;
-}
+};
 
-export interface IGitInfoParams {
+export type IGitInfoParams = {
   gitPath?: string;
   GIT_DIR?: string;
-}
+};
