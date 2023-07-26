@@ -5,7 +5,7 @@
 
 ## Badges
 
-[![npm package](https://img.shields.io/npm/v/git-local-info.svg?style=flat-square)](https://www.npmjs.org/package/git-local-info)
+[![npm package](https://img.shields.io/npm/v/git-local-info-ts.svg?style=flat-square)](https://www.npmjs.org/package/git-local-info-ts)
 
 --------------------
 
@@ -15,7 +15,7 @@ Retrieves repo information without relying on the `git` command.
 
 ### Usage
 
-[![git-local-info](https://nodei.co/npm/git-local-info.png)](https://npmjs.org/package/git-local-info)
+[![git-local-info](https://nodei.co/npm/git-local-info-ts.png)](https://npmjs.org/package/git-local-info-ts)
 
 ```javascript
 import GitInfo from 'git-local-info';
