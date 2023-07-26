@@ -1,9 +1,11 @@
 
 # git-local-info
 
+| Fork of <https://github.com/ycjcl868/git-local-info>
+
 ## Badges
 
-[![npm package](https://img.shields.io/npm/v/git-local-info.svg?style=flat-square)](https://www.npmjs.org/package/git-local-info) [![Build Status](https://travis-ci.org/ycjcl868/git-local-info.svg?branch=master)](https://travis-ci.org/ycjcl868/git-local-info) [![dependencies Status](https://david-dm.org/ycjcl868/git-local-info/status.svg)](https://david-dm.org/ycjcl868/git-local-info)
+[![npm package](https://img.shields.io/npm/v/git-local-info.svg?style=flat-square)](https://www.npmjs.org/package/git-local-info)
 
 --------------------
 
@@ -14,7 +16,6 @@ Retrieves repo information without relying on the `git` command.
 ### Usage
 
 [![git-local-info](https://nodei.co/npm/git-local-info.png)](https://npmjs.org/package/git-local-info)
-
 
 ```javascript
 import GitInfo from 'git-local-info';
@@ -53,7 +54,6 @@ new GitInfo(params);
   GIT_DIR: '.git',
 }
 ```
-
 
 ### Screenshot
 
