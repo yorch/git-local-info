@@ -4,7 +4,7 @@ import { inflateSync } from 'zlib';
 import { parse as parseIni } from 'ini';
 import { type IGitInfo, IGitInfoParams } from './typings';
 
-export default class GitInfo {
+export class GitInfo {
   get getGitInfo(): IGitInfo {
     return {
       branch: this.getBranch(),
