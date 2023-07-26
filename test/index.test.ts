@@ -1,6 +1,6 @@
 import { join } from 'path';
 import { afterEach, assert, describe, it } from 'vitest';
-import GitInfo from '../src';
+import { GitInfo } from '../src';
 
 const root = process.cwd();
 const testFixturesPath = join(__dirname, 'fixtures');
