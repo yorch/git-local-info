@@ -15,11 +15,10 @@ Retrieves repo information without relying on the `git` command.
 
 ### Usage
 
-[![git-local-info](https://nodei.co/npm/git-local-info-ts.png)](https://npmjs.org/package/git-local-info-ts)
+[![git-local-info-ts](https://nodei.co/npm/git-local-info-ts.png)](https://npmjs.org/package/git-local-info-ts)
 
 ```javascript
-import GitInfo from 'git-local-info';
-
+import { GitInfo } from 'git-local-info-ts';
 
 const gitInfo = new GitInfo();
 
@@ -43,7 +42,7 @@ const result = gitInfo.getGitInfo;
 
 ### Params
 
-new GitInfo(params);
+`new GitInfo(params);`
 
 ```js
 // params
